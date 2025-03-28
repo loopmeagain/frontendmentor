@@ -25,6 +25,9 @@ import Avatar from '@/components/Avatar.vue'
 </template>
 
 <style scoped>
+main {
+min-width: 50rem;
+}
 header {
   min-width: 70rem;
   display: flex;
@@ -32,6 +35,7 @@ header {
   align-items: center;
   border-bottom: 1px solid hsl(0, 0%, 90%);
   padding-bottom: 2.2rem;
+  margin-bottom: 4.5rem;
 }
 nav a {
   display: inline-block;
